@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login </title>
+
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- Login page  -->
+    <section class="wrapper">
+        <div class="loginWrap" id="logContainer">
+            <div class="loginformwrap" id="loginForm">
+                <div class="login">
+                    <div class="heading">
+                        <h2> Login </h2>
+                    </div>
+                    <form>
+                        <div class="loginImage">
+                            <img src="../images/features-ic-2.png">
+                        </div>
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" id="userEntry"> Login</button>
+                    </form>
+                    <div class="register">
+                        <div class="registerLink">
+                            <span> Not Registered?<a href="#" id="register"> Register</a></span>
+                        </div>
+                        <div class="returnHome">
+                            <span> <a href="../index.html"><i class="fa-regular fa-circle-left"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Register  -->
+        <div class="registerWrap" id="registerform">
+            <div class="register">
+                <div class="heading">
+                    <h2> Register </h2>
+                </div>
+                <form>
+                    <div class="loginImage">
+                        <img src="../images/features-ic-2.png">
+                    </div>
+                    <input type="text" placeholder="Username">
+                    <input type="email" placeholder="E-mail">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Confirm Password">
+                    <button type="submit" id="userEntry"> Register</button>
+                </form>
+                <div class="loginlink">
+                    <div class="registerLink">
+                        <span> Already Have an Account?<a href="#" id="login"> Login</a></span>
+                    </div>
+                    <div class="returnHome">
+                        <span> <a href="../index.html"><i class="fa-regular fa-circle-left"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+
+    <script src="../js/pizza.js"></script>
+
+</body>
+
+</html>
